@@ -9,7 +9,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.header-logo-link .logo-img {
+.logo-img {
   display: block;
 }
 
@@ -36,7 +36,7 @@ body {
   margin-right: 20px;
 }
 
-.header-list .list-item-link {
+.list-item-link {
   color: var(--header-main-text-color);
   text-decoration: none;
   text-transform: uppercase;
@@ -46,11 +46,11 @@ body {
   height: 60px;
 }
 
-.header-list .list-item-link:hover {
+.list-item-link:hover {
   color: var(--header-hover-text-color);
 }
 
-.header-list .is-active {
+.is-active {
   position: relative;
   color: var(--header-hover-text-color);
 }
