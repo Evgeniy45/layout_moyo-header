@@ -1,0 +1,67 @@
+:root {
+  --header-main-text-color: #000;
+  --header-hover-text-color: #00acdc;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.logo-img {
+  display: block;
+}
+
+.header-navigation {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  display: flex;
+}
+
+.header-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.list-item-link {
+  color: var(--header-main-text-color);
+  text-transform: uppercase;
+  align-items: center;
+  height: 60px;
+  font-size: 12px;
+  text-decoration: none;
+  display: flex;
+}
+
+.list-item-link:hover {
+  color: var(--header-hover-text-color);
+}
+
+.is-active {
+  color: var(--header-hover-text-color);
+  position: relative;
+}
+
+.is-active:after {
+  content: "";
+  background-color: var(--header-hover-text-color);
+  border-radius: 8px;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
