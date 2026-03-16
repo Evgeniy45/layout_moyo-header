@@ -9,7 +9,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-a img {
+.header-logo-link .logo-img {
   display: block;
 }
 
@@ -36,7 +36,7 @@ a img {
   margin-right: 20px;
 }
 
-.header-list a {
+.header-list .list-item-link {
   color: var(--header-main-text-color);
   text-decoration: none;
   text-transform: uppercase;
@@ -46,7 +46,7 @@ a img {
   height: 60px;
 }
 
-.header-list a:hover {
+.header-list .list-item-link:hover {
   color: var(--header-hover-text-color);
 }
 
